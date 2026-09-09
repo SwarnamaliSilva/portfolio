@@ -1,0 +1,271 @@
+[
+    {
+        "id":1,
+        "name":"Online Book Store",
+        "category":"academic",
+        "institution":"BSc(Hons) IT",
+        "year":"2023",
+        "description":"A student attendance system designed to manage attendance using an automated QR-based process.",
+        "technologies":[
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "JavaScript",
+            "PHP",
+            "Laravel",
+            "MySQL"],
+        
+        "tools":[
+            "VS Code",
+            "Figma"],
+
+        "skills":[
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "JavaScript",
+            "PHP",
+            "Laravel",
+            "MySQL"
+        ],
+        "image":"images/projects/studenthub.jpg",
+        "video":"videos/studenthub.mp4",
+        "link":"https://github.com/SwarnamaliSilva/student-management.git"
+    },
+
+    {
+        "id":2,
+        "name":"Smart Tourist Assistant",
+        "category":"academic",
+        "institution":"BSc(Hons) IT",
+        "year":"2023",
+        "description":"A student attendance system designed to manage attendance using an automated QR-based process.",
+        "technologies":[
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "JavaScript",
+            "PHP",
+            "Laravel",
+            "MySQL"],
+        
+        "tools":[
+            "VS Code",
+            "Figma"],
+
+        "skills":[
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "JavaScript",
+            "PHP",
+            "Laravel",
+            "MySQL"
+        ],
+        "image":"images/projects/studenthub.jpg",
+        "video":"videos/studenthub.mp4",
+        "link":"https://github.com/SwarnamaliSilva/student-management.git"
+    },
+
+    {
+        "id":3,
+        "name":"Intelligent Loan Risk Assessment System",
+        "category":"academic",
+        "institution":"BSc(Hons) IT",
+        "year":"2023",
+        "description":"A student attendance system designed to manage attendance using an automated QR-based process.",
+        "technologies":[
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "JavaScript",
+            "PHP",
+            "Laravel",
+            "MySQL"],
+        
+        "tools":[
+            "VS Code",
+            "Figma"],
+
+        "skills":[
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "JavaScript",
+            "PHP",
+            "Laravel",
+            "MySQL"
+        ],
+        "image":"images/projects/studenthub.jpg",
+        "video":"videos/studenthub.mp4",
+        "link":"https://github.com/SwarnamaliSilva/student-management.git"
+    },
+
+    {
+        "id":4,
+        "name":"QuizzA Web Application",
+        "category":"academic",
+        "institution":"HNDIT",
+        "year":"2022",
+        "description":"QuizzA is an online quiz web application created to improve general knowledge through different categories and difficulty levels. This developed using HTML, CSS, JavaScript, PHP, and MySQL and the tools are Visual Studio Code, XAMPP Server, and Microsoft Edge (used for web browser).",
+        "technologies":[
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "PHP",
+            "MySQL"],
+        
+        "tools":[
+            "VS Code",
+            "XAMPP"
+        ],
+        "skills":[
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "PHP",
+            "MySQL"
+        ],
+        "image":"images/projects/QuizzA.png",
+        "video":"videos/QuizzA.mp4",
+        "link":"https://github.com/SwarnamaliSilva/quizza-web-application.git"
+    },
+
+        {
+        "id":5,
+        "name":"Studi",
+        "category":"academic",
+        "institution":"HNDIT",
+        "year":"2022",
+        "description":"QuizzA is an online quiz web application created to improve general knowledge through different categories and difficulty levels. This developed using HTML, CSS, JavaScript, PHP, and MySQL and the tools are Visual Studio Code, XAMPP Server, and Microsoft Edge (used for web browser).",
+        "technologies":[
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "PHP",
+            "MySQL"],
+        
+        "tools":[
+            "VS Code",
+            "XAMPP"
+        ],
+        "skills":[
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "PHP",
+            "MySQL"
+        ],
+        "image":"images/projects/QuizzA.png",
+        "video":"videos/studenthub.mp4",
+        "link":"https://github.com/SwarnamaliSilva/quizza-web-application.git"
+    },  
+
+    {
+        "id":6,
+        "name":"Ceylon Cafe",
+        "category":"individual",
+        "institution":"",
+        "year":"2024",
+        "description":"Ceylon Cafe is a stand-alone, POS (Point of Sale) system that can be used for a cafe and it was developed using the C# programming language and Visual Studio.",
+        "technologies":["C#"],
+        
+        "tools":[
+            "Visual Studio"
+        ],
+        "skills":[
+            "C#"
+        ],
+        "image":"images/projects/ceylon_cafe.png",
+        "video":"videos/ceylon_cafe.mp4",
+        "link":"https://github.com/SwarnamaliSilva/cafe-management.git"
+    },
+
+    {
+        "id":7,
+        "name":"Quiz Time using Java",
+        "category":"individual",
+        "institution":"",
+        "year":"2024",
+        "description":"Quiz Time is a standalone, quiz application developed by using Java and MySQL.",
+        "technologies":[
+            "Java",
+            "MySQL"],
+        
+        "tools":[
+            "NetBeans",
+            "XAMPP"
+        ],
+        "skills":[
+            "Java",
+            "MySQL"
+        ],
+        "image":"images/projects/quiz_time.png",
+        "video":"videos/quiz_time.mp4",
+        "link":"https://github.com/SwarnamaliSilva/QuizTime-Java.git"
+    },
+
+    {
+        "id":8,
+        "name":"New Project",
+        "category":"individual",
+        "institution":"",
+        "year":"2024",
+        "description":"A personal UI/UX design project created to explore user interface and user experience design.",
+        "technologies":[],
+        
+        "tools":[
+            "Figma",
+            "Adobe Photoshop",
+            "Adobe Illustrator"
+        ],
+        "skills":[
+            "Figma",
+            "Photoshop",
+            "Illustrator"
+        ],
+        "image":"images/projects/studenthub.jpg",
+        "video":"videos/studenthub.mp4",
+        "link":"https://www.behance.net/gallery/197792449/Awesomele-Home-Page-Design"
+    },
+
+    {
+        "id":9,
+        "name":"Studi UI/UX Design",
+        "category":"individual",
+        "institution":"",
+        "year":" August 2024",
+        "description":"A UI/UX design for home page of online IT learning and teaching website.",
+        "technologies":["Figma"],
+        
+        "tools":[
+            "Figma"
+        ],
+        "skills":[
+            "Figma"
+        ],
+        "image":"images/projects/Studi.png",
+        "video":"",
+        "link":"https://www.behance.net/gallery/204759879/Studi-Home-Page-UI-Design"
+    },
+
+    {
+        "id":10,
+        "name":"Awesomele UI/UX Design",
+        "category":"individual",
+        "institution":"",
+        "year":"May 2024",
+        "description":"A UI/UX design for online shopping website",
+        "technologies":["Figma"],
+        
+        "tools":[
+            "Figma"
+        ],
+        "skills":[
+            "Figma"
+        ],
+        "image":"images/projects/Awesomele.png",
+        "video":"",
+        "link":"https://www.behance.net/gallery/197792449/Awesomele-Home-Page-Design"
+    }
+]

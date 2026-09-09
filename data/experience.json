@@ -1,0 +1,44 @@
+[
+    {
+        "id":1,
+        "company":"D-Tech",
+        "position":"Intern Front-End Web Developer & Graphic Designer",
+        "startDate":"September 2024",
+        "endDate":"March 2025",
+        "duration":"06 Months",
+        "location":"Kurunegala, Sri Lanka (Remote)",
+        "description":"During my first internship, I developed responsive front-end interfaces for two web applications using HTML, CSS, Bootstrap, JavaScript, and Laravel. I gained hands-on experience in web development, UI design, and graphic design. I also created graphics, flyers, and edited images for projects requirements. This experience enhanced my skills in creating user-friendly and visually appealing web applications.",
+
+        "projects":[{
+            "name":"BLUSwitch Project",
+            "description":"Developed a responsive web interfaces using HTML, CSS, Bootstrap, JavaScript in front-end development for a yacht boat light control and alarm handling system."},
+            
+            {"name":"Honey Bloom Apiary Project",
+            "description":"Developed a web application for a honey manufacturing business to manage and store operations between employer and employees by using the HTML, CSS, Bootstrap, PHP, Laravel framework and MySQL. This project gave me experience and understanding about how front-end connects with back-end in a web application to manage data and its functionalities."
+        }],
+
+        "technologies":[
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "JavaScript",
+            "Laravel",
+            "MySQL"
+        ],
+
+        "tools":[
+            "VS Code",
+            "XAMPP",
+            "Adobe Illustrator",
+            "Adobe Photoshop"
+        ],
+
+        "skills":[
+            "Front-End Web Development",
+            "Responsive We Design",
+            "UI Design",
+            "Graphic Design",
+            "Image Editing"
+        ]
+    }
+]

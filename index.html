@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Swarnamali Silva | Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" >
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg portfolio-navbar">
+        <div class="container">
+            <!-- Logo/Name -->
+            <a class="navbar-brand" href="#home">
+                Swarnamali Silva
+            </a>
+
+            <!-- Mobile Menu Button -->
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainNavbar"
+                aria-controls="mainNavbar"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+            
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certificates">Certificates</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- Home/Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container text-center">
+
+            <p class="hero-subtitle">Hello, I am</p>
+            <h1 class="hero-name">Swarnamali Silva</h1>
+            <p class="hero-qualification">BSc (Hons) in IT Undergraduate</p>
+            <h2 class="hero-role">
+                I am a <span id="typing-text"></span>
+            </h2>
+
+            <p class="hero-introduction">
+                I am an IT undergraduate passionate about front-end web development & UX design.<br>
+                I enjoy creating responsive, user-friendly and visually engaging digital experiences.
+            </p>
+
+            <!-- Social Buttons -->
+            <div class="social-buttons">
+                
+                <a href="https://github.com/SwarnamaliSilva" class="btn btn-dark">
+                    <i class="bi bi-github"></i></a>
+                
+                <a href="https://www.linkedin.com/in/swarnamalisilva/" class="btn btn-primary">
+                    <i class="bi bi-linkedin"></i></a>
+                
+                <a href="https://www.behance.net/swarnamali_silva" class="btn btn-secondary">
+                    <i class="bi bi-behance"></i></a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>About Me</h2>
+                <p>Get to know me</p>
+            </div>
+
+            <div class="row">
+                <!-- About Text -->
+                 <div class="col-lg-9 mx-auto text-center">
+                    <p>
+                        I am an Information Technology undergraduate with an interest in front-end web development and UX design.
+                        
+                        I have experience working with web technologies, database systems and design tools, and I continuously develop my technical and creative skills through academic and personal projects.
+                    </p>
+                 </div>
+            </div>
+
+            <!-- IT Interests -->
+            <div class="it-interests">
+                <h4 class="textBold text-center">IT Interests</h4>
+
+                <div class="row justify-content-center g-4 mt-3">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="interest-card">
+                            <h5>Web Development</h5>
+                            <p>
+                                Creating responsive and user-friendly websites and web applications.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3">
+                        <div class="interest-card">
+                            <h5>Front-End Development</h5>
+                            <p>
+                                Building interactive interfaces using modern front-end technologies.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3">
+                        <div class="interest-card">
+                            <h5>UI/UX Design</h5>
+                            <p>
+                                Creating clean and visually appealing user interfaces. Designing simple and enjoyable experiences for users.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Skills</h2>
+                <p>Technologies and tools I work with</p>
+            </div>
+
+            <!-- Skills -->
+            <div class="skills-container">
+                <button class="skill-button" data-skill="HTML" onClick="showSkillProjects('HTML')">HTML</button>
+                <button class="skill-button" data-skill="CSS" onClick="showSkillProjects('CSS')">CSS</button>
+                <button class="skill-button" data-skill="Bootstrap" onClick="showSkillProjects('Bootstrap')">Bootstrap</button>
+                <button class="skill-button" data-skill="JavaScript" onClick="showSkillProjects('JavaScript')">JavaScript</button>
+                <button class="skill-button" data-skill="Java" onClick="showSkillProjects('Java')">Java</button>
+                <button class="skill-button" data-skill="C#" onClick="showSkillProjects('C#')">C#</button>
+                <button class="skill-button" data-skill="PHP" onClick="showSkillProjects('PHP')">PHP</button>
+                <button class="skill-button" data-skill="Laravel" onClick="showSkillProjects('Laravel')">Laravel</button>
+                <button class="skill-button" data-skill="MySQL" onClick="showSkillProjects('MySQL')">MySQL</button>
+                <button class="skill-button" data-skill="Figma" onClick="showSkillProjects('Figma')">Figma</button>
+                <button class="skill-button" data-skill="Photoshop" onClick="showSkillProjects('Photoshop')">Photoshop</button>
+                <button class="skill-button" data-skill="Illustrator" onClick="showSkillProjects('Illustrator')">Illustrator</button>
+            </div>
+
+            <div id="skill-projects" class="skill-projects">
+                <!-- javascript will add later -->
+            </div>
+
+        </div>
+    </section>
+
+    
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Projects</h2>
+                <p>Academic and individual projects</p>
+            </div>
+
+            <div class="projects-category">
+                <h3>Academic Projects</h3>
+                
+                <h4>BSc(Hons) IT Projects</h4>
+                <div id="bsc-projects" class="project-grid ou-bottom">
+                    <!-- projects will load later -->
+                </div>
+
+                <h4>HNDIT Projects</h4>
+                <div id="hnd-projects" class="project-grid">
+                    <!-- projects will load later -->
+                </div>
+
+            </div>
+
+
+            <div class="projects-category">
+                <h3>Individual Projects</h3>
+                
+                <div id="individual-projects" class="project-grid">
+                    <!-- projects will load later -->
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- Professional Section -->
+    <section id="experience" class="professional-section">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Professional Experience</h2>
+                <p>My professional experience and career journey</p>
+            </div>
+
+            <div id="experience-container" class="experience-container">
+                <!-- experience will be loaded here -->
+            </div>
+        </div>
+        
+    </section>
+
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Education Experience</h2>
+                <p>My Academic Journey</p>
+            </div>
+
+            <div id="education-container" class="education-timeline">
+                <!-- education will be loaded here -->
+            </div>
+        </div>
+        
+    </section>
+
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates-section">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Certificates</h2>
+                <p>My certificates and achievements</p>
+            </div>
+
+            <!-- Category Button -->
+            <div class="certificate-tabs">
+                <button class="certificate-tab active" onClick="showCertificates('IT Related', this)">IT Related</button>
+
+                <button class="certificate-tab" onClick="showCertificates('Extracurricular',this)">
+                    Extra Curricular
+                </button>
+            </div>
+
+            <!-- Certificates -->
+             <div id="certificates-container" class="certificates-container">
+                <!-- certificates will be loaded here -->
+             </div>
+        </div>
+        
+    </section>
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Let's Collaborate</h2>
+                <p>Let's connect and create something meaningful together.</p>
+            </div>
+
+                <div class="footer-socials">
+                
+                <a href="mailto:swarnamaliciscoitn@gmail.com" target="_blank" aria-label="Gmail">
+                    <i class="bi bi-envelope-fill"></i>
+                </a>
+                
+                <a href="https://www.linkedin.com/in/swarnamalisilva/" target="_blank" aria-label="LinkedIn">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+
+                <a href="https://github.com/SwarnamaliSilva" target="_blank" aria-label="GitHub">
+                    <i class="bi bi-github"></i>
+                </a>
+
+                <a href="https://www.behance.net/swarnamali_silva" target="_blank" aria-label="Behance">
+                    <i class="bi bi-behance"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+     <footer class="footer-section">
+        <div class="container">
+        
+            <p class="footer-copyright">
+                © 2026 Swarnamali Silva. All Rights Reserved.
+            </p>
+        </div>
+     </footer>
+
+
+    <!-- Back to top button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+
+    <!-- Image Modal -->
+    <div class="modal fade" id="projectImageModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-x1">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <button class="btn-close" 
+                        type="button" 
+                        data-bs-dismiss="modal"
+                        aria-label="Close">
+                    </button>
+
+                    <img id="modalProjectImage" src="" alt="Project Image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Video Modal -->
+    <div class="modal fade" id="projectVideoModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-x1">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button class="btn-close" 
+                        type="button" 
+                        data-bs-dismiss="modal"
+                        aria-label="Close">
+                    </button>
+
+                    <video id="modalProjectVideo" controls class="modal-project-video">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

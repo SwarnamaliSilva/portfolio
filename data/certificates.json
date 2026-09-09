@@ -1,0 +1,96 @@
+[
+    {
+        "id":1,
+        "name":"Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate",
+        "category":"IT Related",
+        "issuer":"Oracle",
+        "issuedDate":"October 2025",
+        "image":"images/certificates/oracle.png"
+    },
+    {
+        "id":2,
+        "name":"Google AI Essentials",
+        "category":"IT Related",
+        "issuer":"Google",
+        "issuedDate":"October 2025",
+        "image":"images/certificates/googleAI.png"
+    },
+    {
+        "id":3,
+        "name":"Introduction to Cryptography",
+        "category":"IT Related",
+        "issuer":"Wolfram U",
+        "issuedDate":"August 2025",
+        "image":"images/certificates/crypto.png"
+    },
+    {
+        "id":4,
+        "name":"IT Essentials",
+        "category":"IT Related",
+        "issuer":"Cisco",
+        "issuedDate":"August 2025",
+        "image":"images/certificates/itessential.png"
+    },
+
+    {
+        "id":5,
+        "name":"Foundations of User Experience (UX) Design",
+        "category":"IT Related",
+        "issuer":"Google",
+        "issuedDate":"August 2024",
+        "image":"images/certificates/ux.png"
+    },
+
+    {
+        "id":6,
+        "name":"Enterprise Design Thinking Practitioner ",
+        "category":"IT Related",
+        "issuer":"IBM",
+        "issuedDate":"July 2024",
+        "image":"images/certificates/ibm.png"
+    },
+
+    {
+        "id":7,
+        "name":"Front End Development - HTML",
+        "category":"IT Related",
+        "issuer":"Great Learning",
+        "issuedDate":"June 2024",
+        "image":"images/certificates/frontend.png"
+    },
+
+        {
+        "id":8,
+        "name":"Introduction to Java",
+        "category":"IT Related",
+        "issuer":"LearnQuest",
+        "issuedDate":"February 2024",
+        "image":"images/certificates/java.png"
+    },
+
+    {
+        "id":9,
+        "name":"Programming in Python - Python for Beginners",
+        "category":"IT Related",
+        "issuer":"University of Moratuwa",
+        "issuedDate":"June 2022",
+        "image":"images/certificates/python.png"
+    },
+
+    {
+        "id":10,
+        "name":"Introduction to Cybersecurity",
+        "category":"IT Related",
+        "issuer":"Cisco",
+        "issuedDate":"November 2021",
+        "image":"images/certificates/cybersecurity.png"
+    },
+    {
+        "id":11,
+        "name":"Soba Seya 2026 - Art & Photography Competition and Exhibition",
+        "category":"Extracurricular",
+        "issuer":"The Centre for Environmental Studies & Sustainable Development (CESSD), The Open University of Sri Lanka",
+        "issuedDate":"July 2026",
+        "image":"images/certificates/soba.png"
+    }
+]

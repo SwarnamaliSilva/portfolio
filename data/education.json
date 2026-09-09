@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "qualification":"Bachelor of Science Honours in Information Technology",
+        "institution":"The Open University of Sri Lanka",
+        "startYear":"2023",
+        "endYear":"Present",
+        "status":"Currently Studying"
+    },
+    {
+        "id":2,
+        "qualification":"Higher National Diploma in Information Technology",
+        "institution":"Sri Lanka Institute of Advanced Technological Education (SLIATE)",
+        "startYear":"2022",
+        "endYear":"2025",
+        "status":"Completed"
+    },
+    {
+        "id":3,
+        "qualification":"G.C.E.(O/L) and G.C.E.(A/L)",
+        "institution":"A/Kahatagasdigiliya National College",
+        "startYear":"2006",
+        "endYear":"2019",
+        "status":"Completed"
+    }
+]
